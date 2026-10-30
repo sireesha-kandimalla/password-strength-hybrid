@@ -1,0 +1,31 @@
+# Core ML / Data Science
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+scipy>=1.11
+
+# Deep Learning (CPU-safe PyTorch)
+torch>=2.1,<3.0
+torchinfo>=1.8
+
+# NLP / Text
+nltk>=3.8
+
+# UI
+streamlit>=1.32
+plotly>=5.18
+matplotlib>=3.7
+seaborn>=0.13
+
+# File / Config
+pyyaml>=6.0
+joblib>=1.3
+lxml>=4.9
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# Utilities
+tqdm>=4.66
+colorama>=0.4

@@ -1,0 +1,21 @@
+{
+  "vocab_size": 72,
+  "num_classes": 5,
+  "class_names": [
+    "Very Weak",
+    "Weak",
+    "Medium",
+    "Strong",
+    "Very Strong"
+  ],
+  "d_model": 128,
+  "nhead": 4,
+  "num_layers": 2,
+  "dim_feedforward": 256,
+  "dropout": 0.2,
+  "max_len": 64,
+  "num_params": 299525,
+  "best_val_macro_f1": 0.9122681737808078,
+  "best_epoch": 4,
+  "training_time_seconds": 309.7
+}

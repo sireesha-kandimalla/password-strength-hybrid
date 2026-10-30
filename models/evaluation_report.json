@@ -1,0 +1,213 @@
+{
+  "baseline": {
+    "accuracy": 0.4107,
+    "macro_precision": 0.3956,
+    "macro_recall": 0.4105,
+    "macro_f1": 0.3994,
+    "weak_pw_recall": 0.7233,
+    "false_strong_rate": 0.1267,
+    "per_class_report": {
+      "Very Weak": {
+        "precision": 0.5188679245283019,
+        "recall": 0.5481727574750831,
+        "f1-score": 0.5331179321486268,
+        "support": 301.0
+      },
+      "Weak": {
+        "precision": 0.3680297397769517,
+        "recall": 0.3311036789297659,
+        "f1-score": 0.3485915492957746,
+        "support": 299.0
+      },
+      "Medium": {
+        "precision": 0.29583333333333334,
+        "recall": 0.23666666666666666,
+        "f1-score": 0.26296296296296295,
+        "support": 300.0
+      },
+      "Strong": {
+        "precision": 0.2962962962962963,
+        "recall": 0.26666666666666666,
+        "f1-score": 0.2807017543859649,
+        "support": 300.0
+      },
+      "Very Strong": {
+        "precision": 0.4987593052109181,
+        "recall": 0.67,
+        "f1-score": 0.5718349928876245,
+        "support": 300.0
+      },
+      "accuracy": 0.4106666666666667,
+      "macro avg": {
+        "precision": 0.39555731982916026,
+        "recall": 0.41052195394763646,
+        "f1-score": 0.39944183833619074,
+        "support": 1500.0
+      },
+      "weighted avg": {
+        "precision": 0.3956578786189945,
+        "recall": 0.4106666666666667,
+        "f1-score": 0.39956485592475927,
+        "support": 1500.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        165,
+        79,
+        29,
+        23,
+        5
+      ],
+      [
+        91,
+        99,
+        61,
+        36,
+        12
+      ],
+      [
+        36,
+        50,
+        71,
+        74,
+        69
+      ],
+      [
+        18,
+        29,
+        57,
+        80,
+        116
+      ],
+      [
+        8,
+        12,
+        22,
+        57,
+        201
+      ]
+    ],
+    "model_size_bytes": 1458980
+  },
+  "slm": {
+    "accuracy": 0.902,
+    "macro_precision": 0.9022,
+    "macro_recall": 0.902,
+    "macro_f1": 0.9017,
+    "weak_pw_recall": 0.9817,
+    "false_strong_rate": 0.0,
+    "per_class_report": {
+      "Very Weak": {
+        "precision": 0.8811881188118812,
+        "recall": 0.8870431893687708,
+        "f1-score": 0.8841059602649006,
+        "support": 301.0
+      },
+      "Weak": {
+        "precision": 0.8780487804878049,
+        "recall": 0.842809364548495,
+        "f1-score": 0.8600682593856656,
+        "support": 299.0
+      },
+      "Medium": {
+        "precision": 0.9295774647887324,
+        "recall": 0.88,
+        "f1-score": 0.9041095890410958,
+        "support": 300.0
+      },
+      "Strong": {
+        "precision": 0.8706624605678234,
+        "recall": 0.92,
+        "f1-score": 0.8946515397082658,
+        "support": 300.0
+      },
+      "Very Strong": {
+        "precision": 0.9514563106796117,
+        "recall": 0.98,
+        "f1-score": 0.9655172413793104,
+        "support": 300.0
+      },
+      "accuracy": 0.902,
+      "macro avg": {
+        "precision": 0.9021866270671707,
+        "recall": 0.9019705107834532,
+        "f1-score": 0.9016905179558476,
+        "support": 1500.0
+      },
+      "weighted avg": {
+        "precision": 0.9021887199593868,
+        "recall": 0.902,
+        "f1-score": 0.901706543089767,
+        "support": 1500.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        267,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        36,
+        252,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        264,
+        35,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        276,
+        15
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        294
+      ]
+    ],
+    "model_size_bytes": 1209581,
+    "num_parameters": 299525,
+    "training_time_seconds": 309.7,
+    "latency": {
+      "mean_ms": 2.75,
+      "p95_ms": 4.17,
+      "p99_ms": 6.141
+    },
+    "latency_benchmark": {
+      "mean_ms": 2.502,
+      "p50_ms": 2.485,
+      "p95_ms": 3.46,
+      "p99_ms": 4.03
+    }
+  },
+  "dfa": {
+    "total": 1500,
+    "accepted": 3,
+    "rejected": 1497,
+    "accept_rate": 0.002
+  },
+  "hybrid_ablation": {
+    "disagreement_count": 909,
+    "disagreement_rate": 0.606,
+    "verdict_distribution": {
+      "REJECT_POLICY": 1497,
+      "REJECT_VULNERABILITY": 1,
+      "ACCEPT_CONDITIONAL": 0,
+      "ACCEPT_ROBUST": 2
+    }
+  }
+}

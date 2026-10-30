@@ -1,0 +1,13 @@
+{
+  "train_samples": 7000,
+  "val_samples": 1500,
+  "test_samples": 1500,
+  "class_mapping": {
+    "Very Weak": 0,
+    "Weak": 1,
+    "Medium": 2,
+    "Strong": 3,
+    "Very Strong": 4
+  },
+  "random_seed": 42
+}
